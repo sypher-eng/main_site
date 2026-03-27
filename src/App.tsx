@@ -6,7 +6,6 @@ import Services from './components/Services'
 import Industries from './components/Industries'
 import Partners from './components/Partners'
 import WhyUs from './components/WhyUs'
-import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import CaseStudies from './pages/CaseStudies'
@@ -61,8 +60,6 @@ export default function App() {
           <Partners />
           <div className="divider" />
           <WhyUs />
-          <div className="divider" />
-          <Testimonials />
           <div className="divider" />
           <Contact />
           <Footer />
