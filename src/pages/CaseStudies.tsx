@@ -349,7 +349,7 @@ export default function CaseStudies() {
             Every engagement starts with a conversation. Tell us what you're trying to solve.
           </p>
           <a
-            href="/#contact"
+            href="#contact"
             className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-base font-medium"
           >
             Start a Conversation

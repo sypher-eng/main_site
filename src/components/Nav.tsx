@@ -39,7 +39,7 @@ export default function Nav() {
           {homeLinks.map((link) => (
             <a
               key={link}
-              href={`/#${link.toLowerCase().replace(' ', '-')}`}
+              href={`#${link.toLowerCase().replace(' ', '-')}`}
               className="text-sm text-[#8F99A8] hover:text-[#00D47E] transition-colors duration-200 tracking-wide"
             >
               {link}
@@ -103,7 +103,7 @@ export default function Nav() {
               {homeLinks.map((link, i) => (
                 <motion.a
                   key={link}
-                  href={`/#${link.toLowerCase().replace(' ', '-')}`}
+                  href={`#${link.toLowerCase().replace(' ', '-')}`}
                   className="text-[#ABB3BF] hover:text-white transition-colors py-1"
                   initial={{ opacity: 0, x: -16 }}
                   animate={{ opacity: 1, x: 0 }}
