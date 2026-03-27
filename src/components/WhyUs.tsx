@@ -36,9 +36,6 @@ const REASONS = [
 ]
 
 const STATS = [
-  { value: 50, suffix: '+', label: 'Clients Served' },
-  { value: 98, suffix: '%', label: 'Retention Rate' },
-  { value: 100, suffix: 'M+', label: 'Value Delivered', prefix: '$' },
   { value: 5, suffix: '', label: 'Platform Partners' },
 ]
 

@@ -169,11 +169,6 @@ const item = {
   show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
 }
 
-const STATS = [
-  { value: '50+', label: 'Clients Served' },
-  { value: '98%', label: 'Client Retention' },
-  { value: '$100M+', label: 'Value Delivered' },
-]
 
 export default function Hero() {
   return (
@@ -265,18 +260,6 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Stats */}
-          <motion.div
-            variants={item}
-            className="grid grid-cols-3 gap-8 pt-10 border-t border-white/5 max-w-sm"
-          >
-            {STATS.map((s) => (
-              <div key={s.label}>
-                <div className="stat-num text-3xl md:text-4xl grad">{s.value}</div>
-                <div className="text-xs text-[#8F99A8] mt-1.5 leading-tight">{s.label}</div>
-              </div>
-            ))}
-          </motion.div>
         </motion.div>
 
         {/* Scroll hint */}
