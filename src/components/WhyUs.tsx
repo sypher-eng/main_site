@@ -111,7 +111,7 @@ export default function WhyUs() {
                   transition={{ delay: i * 0.1, duration: 0.5 }}
                 >
                   <div className="stat-num text-3xl grad mb-1">
-                    <Counter value={s.value} suffix={s.suffix} prefix={s.prefix} />
+                    <Counter value={s.value} suffix={s.suffix} />
                   </div>
                   <div className="text-xs text-[#8F99A8]">{s.label}</div>
                 </motion.div>
