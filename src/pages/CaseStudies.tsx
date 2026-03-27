@@ -162,7 +162,6 @@ function CaseStudyCard({ cs, index }: { cs: CaseStudy; index: number }) {
               style={{ borderColor: `${cs.partnerColor}30`, background: `${cs.partnerColor}0D`, color: cs.partnerColor }}
             >
               {cs.partnerIcon}
-              <span>{cs.partner}</span>
             </div>
             {/* Industry */}
             <span className="tag w-fit">{cs.industry}</span>
@@ -315,7 +314,6 @@ export default function CaseStudies() {
                 style={{ borderColor: `${cs.partnerColor}30`, background: `${cs.partnerColor}0D`, color: cs.partnerColor }}
               >
                 {cs.partnerIcon}
-                {cs.partner}
               </a>
             ))}
           </motion.div>
