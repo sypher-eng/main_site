@@ -45,12 +45,6 @@ export default function Nav() {
               {link}
             </a>
           ))}
-          <a
-            href="#case-studies"
-            className="text-sm text-[#8F99A8] hover:text-[#00D47E] transition-colors duration-200 tracking-wide"
-          >
-            Case Studies
-          </a>
         </div>
 
         {/* CTA */}
@@ -113,16 +107,7 @@ export default function Nav() {
                   {link}
                 </motion.a>
               ))}
-              <motion.a
-                href="#case-studies"
-                className="text-[#ABB3BF] hover:text-white transition-colors py-1"
-                initial={{ opacity: 0, x: -16 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: homeLinks.length * 0.06 }}
-                onClick={() => setMobileOpen(false)}
-              >
-                Case Studies
-              </motion.a>
+
               <a
                 href="#contact"
                 className="btn-primary px-6 py-3 text-sm font-medium text-center mt-2"
